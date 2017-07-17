@@ -1,0 +1,165 @@
+body {
+        background-image: url("http://i.imgur.com/CTMWxXM.jpg");
+        background-size: 100% 100%;
+      }
+
+      p {
+        color: white;
+        font-family: "Josefin Sans";
+        font-size: 1.7em;
+        text-align: center;
+      }
+
+      h1 {
+        color: white;
+        font-family: "Josefin Sans";
+        font-size: 2.2em;
+        font-weight: lighter;
+        line-height: 0.2em;
+        cursor: pointer;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+
+      h2 {
+        color: white;
+        font-family: "Hind";
+        font-size: 0.9em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+
+      ol {
+        list-style-type: none;
+      }
+
+      li {
+        color: white;
+        display: inline;
+        font-family: "Josefin Sans";
+        font-size: 1.2em;
+        word-spacing: 0.5em;
+        cursor:pointer;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+
+      li:hover {
+        color: #000;
+      }
+
+
+      .description {
+        position: relative;
+        top: 55%;
+        display: none;
+        text-align: right;
+        padding-right: 0.7em;
+      }
+
+      .descriptioninfo {
+        position: relative;
+        top: 55%;
+        display: none;
+        text-align:left;
+        padding-left: 0.7em;
+      }
+
+      .descriptionsurvey {
+        position: relative;
+        text-align:right;
+        display: none;
+        padding-right: 0.7em;
+        padding-top: 1em;
+      }
+
+      .descriptionblog {
+        position: relative;
+        text-align:left;
+        display: none;
+        padding-left: 0.7em;
+        padding-top: 1em;
+      }
+
+      #header {
+        position: relative;
+        display: none;
+        margin: 0 auto;
+        top: 1.5em;
+        width: 13em;
+      }
+
+      #rawdata {
+        width: 50%;
+        height: 45%;
+        top: 0;
+        float: left;
+        text-align: center;
+        -webkit-transition:all .2s ease-in;
+        -moz-transition:all .2s ease-in;
+        -o-transition:all .2s ease-in;
+        -ms-transition:all .2s ease-in;
+        transition:all .2s ease-in;
+      }
+
+
+
+
+      #infographic {
+        width: 50%;
+        height: 45%;
+        top: 0;
+        float: right;
+        text-align: center;
+        -webkit-transition:all .2s ease-in;
+        -moz-transition:all .2s ease-in;
+        -o-transition:all .2s ease-in;
+        -ms-transition:all .2s ease-in;
+        transition:all .2s ease-in;
+      }
+
+
+
+      #survey {
+        width: 50%;
+        height: 45%;
+        bottom: 0;
+        float: left;
+        text-align: center;
+        -webkit-transition:all .2s ease-in;
+        -moz-transition:all .2s ease-in;
+        -o-transition:all .2s ease-in;
+        -ms-transition:all .2s ease-in;
+        transition:all .2s ease-in;
+      }
+
+
+      #blog {
+        width: 50%;
+        height: 45%;
+        bottom: 0;
+        float: right;
+        text-align: center;
+        -webkit-transition:all .2s ease-in;
+        -moz-transition:all .2s ease-in;
+        -o-transition:all .2s ease-in;
+        -ms-transition:all .2s ease-in;
+        transition:all .2s ease-in;
+      }
+
+      #About {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        top: 25%;
+      }

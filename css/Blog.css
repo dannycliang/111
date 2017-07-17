@@ -1,0 +1,79 @@
+body {
+  background-image: url("http://i.imgur.com/sX4pH8F.jpg");
+  background-size: 100% 100%;
+}
+
+.blogtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.blogtext {
+  display: block;
+  margin: 0 auto;
+  width: 50em;
+  padding-top: 2em;
+}
+
+
+#header {
+   display: none;
+   position: relative;
+   margin: 0 auto;
+   top: 1.5em;
+   width: 15em;
+}
+
+ol {
+    list-style-type: none;
+}
+
+      li {
+        display: inline;
+        font-family: "Josefin Sans";
+        font-size: 1.2em;
+        word-spacing: 0.5em;
+        cursor:pointer;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+
+li:hover {
+        color: #FFF;
+      }
+      
+      
+p {
+        font-family: "Josefin Sans";
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.75em;
+      }
+
+      h1 {
+        font-family: "Josefin Sans";
+        font-size: 3em;
+        font-weight: lighter;
+        line-height: 0.2em;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+
+      h2 {
+        font-family: "Josefin Sans";
+        font-size: 1em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }

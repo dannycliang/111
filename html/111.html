@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="icon" href="http://dannyliang.com/assets/favicon.ico">
+    <link href="http://dannyliang.com/css/111.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id = "header">
+      <ol>
+        <li id = "Home"> Home </li>
+        <li id = "AboutButton"> About </li>
+        <li> Other </li>
+      </ol>
+    </div>
+    <div id = "About">
+      <p>This is a hub for the analysis, writing, and results of my NBA survey. It consists of 46 questions, split into 5 sections: 10 Mentality questions about topics such as tanking, clutchness, and advanced stats, 14 Rules questions including topics such as conference imbalance, flopping, and hack-a-fouls, 6 Hypothetical Questions on topics such as an injury-free 2015 NBA Finals, a suspension-free 2016 NBA Finals, and an only retired once MJ, 10 Player Questions on the places in history of LeBron James, Kobe Bryant, Stephen Curry and more, and 6 Demographic Questions. <br> <br>
+      I've been lucky enough to get over 1250 responses. Thanks to all for getting through and supporting it. Any feedback is welcome at dannyliang.726@gmail.com </p>
+    </div>
+    <div id = "rawdata">
+      <div class = "description">
+        <h2 id = "Aotdd"> All of<br>the questions<br> and who answered what </h2>
+        <h1 id = "Aotd"> All Of The Data </h1>
+      </div>
+    </div>
+    <div id = "infographic">
+      <div class = "descriptioninfo">
+        <h2 id = "Tinfod"> Charts <br> containing <br> visual analysis of the data </h2>
+        <h1 id = "TInfo">The Infographics </h1>
+      </div>
+    </div>
+    <div id = "blog">
+      <div class = "descriptionblog">
+        <h1 id = "TBPD"> The Blog Posts</h1>
+        <h2 id = "TBP"> Posts with my written analysis <br> of the <br> data</h2>
+      </div>
+    </div>
+    <div id = "survey">
+      <div class = "descriptionsurvey">
+        <h1 id = "TFSD"> The Full Survey </h1>
+        <h2 id = "TFS"> Haven't taken the survey?<br> Take it<br> here! </h2>
+      </div>
+    </div>
+   <script>
+   $("#AboutButton").click(function() {
+        $(".description").toggle(500),
+          $(".descriptioninfo").toggle(500),
+            $(".descriptionsurvey").toggle(500),
+            $(".descriptionblog").toggle(500),
+            $("#About").toggle(500)
+      });
+    $("#Home").click(function() {
+      window.location.replace("http://dannyliang.com");
+    });
+    $("#TFSD").click(function() {
+      window.location.replace("http://dannyliang.com/111/Survey.html");
+    });
+    $("#TBPD").click(function() {
+      window.location.replace("http://dannyliang.com/111/Blog.html");
+    });
+    $("#Aotd").click(function() {
+      window.location.replace("http://dannyliang.com/111/Results.html");
+    });
+    $(".description").mouseenter(onIn).mouseleave(onOut);
+    $(".descriptioninfo").mouseenter(onInfo).mouseleave(onOutfo);
+    $(".descriptionsurvey").mouseenter(onInsu).mouseleave(onOutsu);
+    $(".descriptionblog").mouseenter(onInbl).mouseleave(onOutbl);
+    function onIn() {
+      $("#infographic").css("opacity", "0"),
+      $("#survey").css("opacity", "0"),
+      $("#blog").css("opacity", "0");
+    }
+    function onOut() {
+      $("#blog").css("opacity", "1"),
+      $("#survey").css("opacity", "1"),
+      $("#infographic").css("opacity", "1");
+    }
+    function onInfo() {
+      $("#rawdata").css("opacity", "0"),
+      $("#blog").css("opacity", "0"),
+      $("#survey").css("opacity", "0");
+    }
+
+    function onOutfo() {
+      $("#survey").css("opacity", "1"),
+      $("#blog").css("opacity", "1"),
+      $("#rawdata").css("opacity", "1");
+    }
+    function onInsu() {
+      $("#rawdata").css("opacity", "0"),
+      $("#infographic").css("opacity", "0"),
+      $("#blog").css("opacity", "0");
+    }
+
+    function onOutsu() {
+      $("#rawdata").css("opacity", "1"),
+      $("#infographic").css("opacity", "1"),
+      $("#blog").css("opacity", "1");
+    }
+    function onInbl() {
+      $("#rawdata").css("opacity", "0"),
+      $("#infographic").css("opacity", "0"),
+      $("#survey").css("opacity", "0");
+    }
+
+    function onOutbl() {
+      $("#rawdata").css("opacity", "1"),
+      $("#infographic").css("opacity", "1"),
+      $("#survey").css("opacity", "1");
+    }
+
+$(document).ready(function(e) {
+ $( "#header" ).fadeIn( 1000, function() {
+  $( ".description" ).fadeIn( 600, function() {
+    $( ".descriptioninfo" ).fadeIn( 600, function() {
+      $( ".descriptionblog" ).fadeIn( 600, function() { 
+        $( ".descriptionsurvey" ).fadeIn( 600 );
+        });
+                });
+            });
+        });
+     });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+body {
+  background-color: #DADADA;
+}
+
+h1 {
+        font-family: "Josefin Sans";
+        font-size: 2em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+        text-align; center;
+      }
+      
+      
+
+
+h2 {
+        font-family: "Josefin Sans";
+        font-size: 1.5em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+      
+h3 {
+  font-family: "Josefin Sans";
+        font-size: 2.5em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+}
+
+
+
+h4 {
+  font-family: "Josefin Sans";
+        font-size: 2em;
+        font-weight: lighter;
+        -webkit-transition:all .4s ease-in;
+        -moz-transition:all .4s ease-in;
+        -o-transition:all .4s ease-in;
+        -ms-transition:all .4s ease-in;
+        transition:all .4s ease-in;
+        cursor: pointer;
+}
+
+h4:hover {
+  color: #F0F2F0;
+}
+
+h5 {
+  font-family: "Josefin Sans";
+        font-size: 1.3em;
+        font-weight: lighter;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+}
+
+
+ol {
+    list-style-type: none;
+}
+
+      li {
+        display: inline;
+        font-family: "Josefin Sans";
+        font-size: 1.2em;
+        word-spacing: 0.5em;
+        cursor:pointer;
+        -webkit-transition:all .3s ease-in;
+        -moz-transition:all .3s ease-in;
+        -o-transition:all .3s ease-in;
+        -ms-transition:all .3s ease-in;
+        transition:all .3s ease-in;
+      }
+      
+li:hover {
+        color: #000;
+      }
+
+.QuickNav {
+  padding-top: 3%;
+  position: relative;
+  display: none;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+}
+
+.sections {
+  position: relative;
+  padding-top: -2%;
+  display: none;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+}
+
+.sectiontitle {
+  position: relative;
+  display: none;
+  background-color: #D1D1D1;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results2 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results3 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results4 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results5 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results6 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results7 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results8 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results9 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.Results10 {
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.title {
+  position: relative;
+  display: none;
+  background-color: #C9C9C9;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#header {
+   display: none;
+   position: relative;
+   margin: 0 auto;
+   top: 1.5em;
+   width: 13em;
+}

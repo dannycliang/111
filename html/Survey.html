@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link href="http://dannyliang.com/css/Survey.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="icon" href="http://dannyliang.com/assets/favicon.ico">
+  </head>
+  <body>
+    <div id = "header">
+      <ol>
+        <li id = "Home"> Home </li>
+        <li id = "AboutButton"> About </li>
+        <li id = "Back"> Back </li>
+      </ol>
+    </div>
+  <div id = "Survey">
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdchPNz1iBEHaDv_OFcMhNNMCSLtTEC8QUSxDMKpyMu4KRCwQ/viewform?embedded=true" width="60%" height="80%" frameborder="0" marginheight="0" marginwidth="0" id = "Form" style="display:none;">Loading...</iframe>
+   </div>
+   <script>
+       $(document).ready(function(e) {
+	 $( "#header" ).fadeIn( 1000, function() {
+	  $( "#Form" ).fadeIn( 1000 )
+	  });
+     });
+     $("#Home").click(function() {
+      window.location.replace("http://dannyliang.com");
+    });
+    $("#About").click(function() {
+      window.location.replace("http://dannyliang.com");
+    });
+    $("#Back").click(function() {
+      window.location.replace("http://dannyliang.com/111.html");
+    });
+  </script>
+  </body>
+</html>
